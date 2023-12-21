@@ -3,8 +3,8 @@ import { ethers } from 'ethers';
 
 async function main() {
 
-  const senderPrivateKey = '0x3bee567f9470e3d023f2c9b20ac62be714805b072297f3865b4d3549a2a3b1b6'; // Private Key from network tab
-  const recipientAddress = '0x8105ce17CaFe46A0773d37c094d1FBC9A060bb27'; //address of your PK
+  const senderPrivateKey = '0x000000000000000x000000000000000x00000000000000'; // Private Key from network tab
+  const recipientAddress = '0x000000000000000x00000000000000'; //address of your PK
 
   const amountToSend = ethers.utils.parseEther("1000.0"); // AMOUNT IN ETH
   const provider = new ethers.providers.JsonRpcProvider('JSON RPC URL ');
